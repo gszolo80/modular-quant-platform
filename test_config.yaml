@@ -1,0 +1,40 @@
+# 测试配置
+system:
+  name: "Modular Quant Test Platform"
+  version: "1.0.0"
+  environment: "testing"
+  log_level: "INFO"
+
+data_sources:
+  default: "eastmoney"  # 测试使用eastmoney而不是tdx
+  tdx:
+    enabled: false
+    path: "/tmp/test_tdx_path"  # 提供一个虚拟路径
+  eastmoney:
+    enabled: true
+    api_key: "test_key"
+    cache_enabled: true
+
+modules:
+  enabled:
+    - data_sources
+    - hook_manager
+    - agents
+  disabled:
+    - tdx_parser  # 在测试中禁用tdx解析器
+
+hooks:
+  enabled:
+    - system.startup
+    - system.shutdown
+  disabled:
+    - data.after_fetch
+    - strategy.signal_generated
+
+agents:
+  enabled:
+    - MessageBus
+  disabled:
+    - DataCollectorAgent
+    - StrategyAnalyzerAgent
+    - ReportGeneratorAgent

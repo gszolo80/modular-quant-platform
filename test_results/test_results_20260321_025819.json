@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-03-21T02:58:19.643771",
+  "total_tests": 9,
+  "passed_tests": 8,
+  "failed_tests": 1,
+  "pass_rate": 88.88888888888889,
+  "duration": 0.11389303207397461,
+  "details": [
+    {
+      "test": "模块导入",
+      "status": "PASS",
+      "timestamp": "2026-03-21T02:58:19.615206"
+    },
+    {
+      "test": "配置管理器",
+      "status": "PASS",
+      "timestamp": "2026-03-21T02:58:19.615351"
+    },
+    {
+      "test": "数据源模块",
+      "status": "PASS",
+      "timestamp": "2026-03-21T02:58:19.615660"
+    },
+    {
+      "test": "核心模型",
+      "status": "PASS",
+      "timestamp": "2026-03-21T02:58:19.615726"
+    },
+    {
+      "test": "钩子管理器",
+      "status": "PASS",
+      "timestamp": "2026-03-21T02:58:19.615989"
+    },
+    {
+      "test": "Agent框架",
+      "status": "PASS",
+      "timestamp": "2026-03-21T02:58:19.616168"
+    },
+    {
+      "test": "平台集成",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T02:58:19.622007"
+    },
+    {
+      "test": "配置文件",
+      "status": "PASS",
+      "timestamp": "2026-03-21T02:58:19.643298"
+    },
+    {
+      "test": "项目结构",
+      "status": "PASS",
+      "timestamp": "2026-03-21T02:58:19.643646"
+    }
+  ]
+}

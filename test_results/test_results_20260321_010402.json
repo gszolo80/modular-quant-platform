@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-03-21T01:04:02.105914",
+  "total_tests": 9,
+  "passed_tests": 2,
+  "failed_tests": 7,
+  "pass_rate": 22.22222222222222,
+  "duration": 0.07583093643188477,
+  "details": [
+    {
+      "test": "模块导入",
+      "status": "ERROR",
+      "error": "name 'Enum' is not defined",
+      "timestamp": "2026-03-21T01:04:02.072964"
+    },
+    {
+      "test": "配置管理器",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:04:02.074904"
+    },
+    {
+      "test": "数据源模块",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:04:02.075883"
+    },
+    {
+      "test": "核心模型",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:04:02.076809"
+    },
+    {
+      "test": "钩子管理器",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:04:02.077705"
+    },
+    {
+      "test": "Agent框架",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:04:02.078661"
+    },
+    {
+      "test": "平台集成",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:04:02.079610"
+    },
+    {
+      "test": "配置文件",
+      "status": "PASS",
+      "timestamp": "2026-03-21T01:04:02.105326"
+    },
+    {
+      "test": "项目结构",
+      "status": "PASS",
+      "timestamp": "2026-03-21T01:04:02.105730"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# 模块化量化平台 - 核心依赖
+
+# 数据库
+duckdb>=0.9.0
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 网络请求
+requests>=2.31.0
+
+# 配置文件
+pyyaml>=6.0
+
+# 命令行接口
+click>=8.1.0
+
+# 日期处理
+python-dateutil>=2.8.0
+
+# 日志
+colorlog>=6.7.0
+
+# 可选依赖（通过pip install modular-quant[full]安装）
+# akshare>=1.12.0
+# ta-lib>=0.4.0
+# plotly>=5.15.0
+# dash>=2.14.0
+# fastapi>=0.104.0
+# uvicorn>=0.24.0
+# sqlalchemy>=2.0.0

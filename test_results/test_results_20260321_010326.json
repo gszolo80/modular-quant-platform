@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-03-21T01:03:26.348004",
+  "total_tests": 9,
+  "passed_tests": 2,
+  "failed_tests": 7,
+  "pass_rate": 22.22222222222222,
+  "duration": 0.07357597351074219,
+  "details": [
+    {
+      "test": "模块导入",
+      "status": "ERROR",
+      "error": "[Errno 2] No such file or directory: '/Users/huangjing/.openclaw/workspace/modular_quant/logs/modular_quant.log'",
+      "timestamp": "2026-03-21T01:03:26.307752"
+    },
+    {
+      "test": "配置管理器",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:03:26.308948"
+    },
+    {
+      "test": "数据源模块",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:03:26.310014"
+    },
+    {
+      "test": "核心模型",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:03:26.311003"
+    },
+    {
+      "test": "钩子管理器",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:03:26.311930"
+    },
+    {
+      "test": "Agent框架",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:03:26.312664"
+    },
+    {
+      "test": "平台集成",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:03:26.313585"
+    },
+    {
+      "test": "配置文件",
+      "status": "PASS",
+      "timestamp": "2026-03-21T01:03:26.347004"
+    },
+    {
+      "test": "项目结构",
+      "status": "PASS",
+      "timestamp": "2026-03-21T01:03:26.347556"
+    }
+  ]
+}

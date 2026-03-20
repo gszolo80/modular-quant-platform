@@ -1,0 +1,309 @@
+2026-03-21 01:04:26,682 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 01:04:26,682 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 01:04:26,687 - root - INFO - 设置默认数据源: tdx
+2026-03-21 01:04:26,697 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'StockData' from 'modular_quant.core_models' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/core_models/__init__.py)
+2026-03-21 01:04:26,697 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:04:26,698 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'StockData' from 'modular_quant.core_models' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/core_models/__init__.py)
+2026-03-21 01:04:26,698 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:04:26,699 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'StockData' from 'modular_quant.core_models' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/core_models/__init__.py)
+2026-03-21 01:04:26,699 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:04:26,700 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'StockData' from 'modular_quant.core_models' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/core_models/__init__.py)
+2026-03-21 01:04:26,700 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:06:34,586 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 01:06:34,586 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 01:06:34,588 - root - INFO - 设置默认数据源: tdx
+2026-03-21 01:06:34,671 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 01:06:34,762 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 01:06:34,763 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 01:06:34,763 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'Message' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 01:06:34,763 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:06:34,764 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:06:34,764 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 01:06:34,764 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:34:37,367 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 01:34:37,367 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 01:34:37,369 - root - INFO - 设置默认数据源: tdx
+2026-03-21 01:34:37,423 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 01:34:37,458 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 01:34:37,458 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 01:34:37,459 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'Message' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 01:34:37,459 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:34:37,459 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 01:34:37,459 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 01:34:37,460 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:34:37,460 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 01:34:37,460 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 01:34:37,460 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:35:58,769 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 01:35:58,769 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 01:35:58,770 - root - INFO - 设置默认数据源: tdx
+2026-03-21 01:35:58,808 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 01:35:58,826 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 01:35:58,826 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 01:35:58,827 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 01:35:58,827 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:35:58,827 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 01:35:58,827 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 01:35:58,828 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:35:58,828 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 01:35:58,828 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 01:35:58,828 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:38:34,131 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 01:38:34,131 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 01:38:34,132 - root - INFO - 设置默认数据源: tdx
+2026-03-21 01:38:34,167 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 01:38:34,183 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 01:38:34,184 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 01:38:34,184 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 01:38:34,184 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:38:34,185 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 01:38:34,185 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 01:38:34,185 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:38:34,185 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 01:38:34,185 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 01:38:34,189 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 01:38:34,189 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 01:38:34,190 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:38:40,003 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 01:38:40,004 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 01:38:40,005 - root - INFO - 设置默认数据源: tdx
+2026-03-21 01:38:40,045 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 01:38:40,062 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 01:38:40,062 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 01:38:40,062 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 01:38:40,063 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:38:40,063 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 01:38:40,063 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 01:38:40,063 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:38:40,064 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 01:38:40,064 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 01:38:40,068 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 01:38:40,068 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 01:38:40,068 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:40:11,534 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 01:40:11,534 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 01:40:11,535 - root - INFO - 设置默认数据源: tdx
+2026-03-21 01:40:11,579 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 01:40:11,610 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 01:40:11,610 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 01:40:11,611 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 01:40:11,611 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:40:11,611 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 01:40:11,612 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 01:40:11,612 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:40:11,612 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 01:40:11,612 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 01:40:11,628 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 01:40:11,628 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 01:40:11,628 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:40:26,902 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 01:40:26,902 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 01:40:26,904 - root - INFO - 设置默认数据源: tdx
+2026-03-21 01:40:26,957 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 01:40:26,982 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 01:40:26,982 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 01:40:26,983 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 01:40:26,983 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:40:26,983 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 01:40:26,983 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 01:40:26,984 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:40:26,984 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 01:40:26,984 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 01:40:26,990 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 01:40:26,991 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 01:40:26,991 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:40:33,097 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 01:40:33,097 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 01:40:33,098 - root - INFO - 设置默认数据源: tdx
+2026-03-21 01:40:33,136 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 01:40:33,153 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 01:40:33,154 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 01:40:33,154 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 01:40:33,154 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 01:40:33,155 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 01:40:33,155 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 01:40:33,155 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:40:33,155 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 01:40:33,155 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 01:40:33,159 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 01:40:33,160 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 01:40:33,160 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 01:41:15,385 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 01:41:15,385 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 01:41:15,387 - root - INFO - 设置默认数据源: tdx
+2026-03-21 01:41:15,422 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 01:41:15,439 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 01:41:15,439 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 01:41:15,439 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 01:41:15,440 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 02:30:53,408 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 02:30:53,409 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 02:30:53,411 - root - INFO - 设置默认数据源: tdx
+2026-03-21 02:30:53,467 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 02:30:53,495 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 02:30:53,495 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 02:30:53,496 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 02:30:53,496 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 02:30:53,497 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 02:30:53,497 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 02:30:53,497 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 02:30:53,497 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 02:30:53,497 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 02:30:53,504 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 02:30:53,504 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 02:30:53,504 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 02:35:47,921 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 02:35:47,922 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 02:35:47,923 - root - INFO - 设置默认数据源: tdx
+2026-03-21 02:35:47,963 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 02:35:47,981 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 02:35:47,982 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 02:35:47,982 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 02:35:47,982 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 02:35:47,982 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 02:35:47,983 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 02:35:47,983 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 02:35:47,983 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 02:35:47,983 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 02:35:47,988 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 02:35:47,988 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 02:35:47,988 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 02:35:47,988 - modular_quant - INFO - 模块化量化平台初始化完成
+2026-03-21 02:35:47,989 - modular_quant - INFO - 启动模块化量化平台...
+2026-03-21 02:35:47,989 - modular_quant - ERROR - 量化平台启动失败: execute_hook() missing 1 required positional argument: 'hook_name'
+2026-03-21 02:58:19,555 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 02:58:19,555 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 02:58:19,556 - root - INFO - 设置默认数据源: tdx
+2026-03-21 02:58:19,596 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 02:58:19,614 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 02:58:19,614 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 02:58:19,614 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 02:58:19,615 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 02:58:19,615 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 02:58:19,615 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 02:58:19,615 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 02:58:19,616 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 02:58:19,616 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 02:58:19,620 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 02:58:19,620 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 02:58:19,620 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 02:58:19,621 - modular_quant - INFO - 模块化量化平台初始化完成
+2026-03-21 02:58:19,621 - modular_quant - INFO - 启动模块化量化平台...
+2026-03-21 02:58:19,621 - modular_quant.hook_manager - INFO - 系统启动 - 钩子管理器: default
+2026-03-21 02:58:19,621 - modular_quant - INFO - 系统启动钩子执行
+2026-03-21 02:58:19,621 - modular_quant.hook_manager - ERROR - 钩子执行失败: system.startup (id=30d86a32-447d-47ae-a8ce-e98a3df8de22) - __init__() got an unexpected keyword argument 'event_data'
+2026-03-21 02:58:19,621 - modular_quant - ERROR - 量化平台启动失败: 'MessageBus' object has no attribute 'start'
+2026-03-21 02:58:19,621 - modular_quant - ERROR - 系统错误: STARTUP_ERROR - 'MessageBus' object has no attribute 'start'
+2026-03-21 02:58:19,621 - modular_quant.hook_manager - ERROR - 钩子执行失败: system.error (id=749f6600-8f35-4622-8ac0-26d39fd45306) - __init__() got an unexpected keyword argument 'event_data'
+2026-03-21 03:01:28,289 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 03:01:28,290 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 03:01:28,292 - root - INFO - 设置默认数据源: tdx
+2026-03-21 03:01:28,334 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 03:01:28,410 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 03:01:28,410 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 03:01:28,411 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 03:01:28,411 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 03:01:28,412 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 03:01:28,412 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 03:01:28,412 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 03:01:28,412 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 03:01:28,413 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 03:01:28,419 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 03:01:28,419 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 03:01:28,420 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 03:01:28,420 - modular_quant - INFO - 模块化量化平台初始化完成
+2026-03-21 03:01:28,420 - modular_quant - INFO - 启动模块化量化平台...
+2026-03-21 03:01:28,420 - modular_quant.hook_manager - INFO - 系统启动 - 钩子管理器: default
+2026-03-21 03:01:28,420 - modular_quant - INFO - 系统启动钩子执行
+2026-03-21 03:01:28,420 - modular_quant.hook_manager - ERROR - 钩子执行失败: system.startup (id=1bc6c6ff-d183-42d9-86e8-841b576e8f18) - __init__() got an unexpected keyword argument 'event_data'
+2026-03-21 03:01:28,421 - modular_quant.agents - INFO - 消息总线启动: global
+2026-03-21 03:01:28,421 - modular_quant - INFO - 模块化量化平台启动成功，版本: 1.0.0
+2026-03-21 03:01:28,421 - modular_quant - INFO - 系统启动时间: 2026-03-21 03:01:28.420275
+2026-03-21 03:01:28,421 - modular_quant - INFO - 启用模块: 数据源=tdx, Agent=['data_collector', 'strategy_analyzer', 'report_generator']
+2026-03-21 03:02:23,616 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 03:02:23,616 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 03:02:23,618 - root - INFO - 设置默认数据源: tdx
+2026-03-21 03:02:23,655 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 03:02:23,680 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 03:02:23,680 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 03:02:23,680 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 03:02:23,680 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 03:02:23,681 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 03:02:23,681 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 03:02:23,681 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 03:02:23,681 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 03:02:23,681 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 03:02:23,686 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 03:02:23,686 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 03:02:23,686 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 03:02:23,687 - modular_quant - INFO - 模块化量化平台初始化完成
+2026-03-21 03:02:23,687 - modular_quant - INFO - 启动模块化量化平台...
+2026-03-21 03:02:23,687 - modular_quant.hook_manager - INFO - 系统启动 - 钩子管理器: default
+2026-03-21 03:02:23,687 - modular_quant - INFO - 系统启动钩子执行
+2026-03-21 03:02:23,687 - modular_quant.hook_manager - ERROR - 钩子执行失败: system.startup (id=02359389-3ca8-4620-86d5-3e7f8372bb31) - __init__() got an unexpected keyword argument 'event_data'
+2026-03-21 03:02:23,687 - modular_quant.agents - INFO - 消息总线启动: global
+2026-03-21 03:02:23,687 - modular_quant - INFO - 模块化量化平台启动成功，版本: 1.0.0
+2026-03-21 03:02:23,687 - modular_quant - INFO - 系统启动时间: 2026-03-21 03:02:23.686984
+2026-03-21 03:02:23,687 - modular_quant - INFO - 启用模块: 数据源=tdx, Agent=['data_collector', 'strategy_analyzer', 'report_generator']
+2026-03-21 03:04:01,026 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 03:04:01,026 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 03:04:01,027 - root - INFO - 设置默认数据源: tdx
+2026-03-21 03:04:01,063 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 03:04:01,081 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 03:04:01,081 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 03:04:01,081 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 03:04:01,081 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 03:04:01,082 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 03:04:01,082 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 03:04:01,082 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 03:04:01,082 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 03:04:01,083 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 03:04:01,087 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 03:04:01,087 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 03:04:01,087 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 03:04:01,088 - modular_quant - INFO - 模块化量化平台初始化完成
+2026-03-21 03:04:01,088 - modular_quant - INFO - 启动模块化量化平台...
+2026-03-21 03:04:01,088 - modular_quant.hook_manager - INFO - 系统启动 - 钩子管理器: default
+2026-03-21 03:04:01,088 - modular_quant - INFO - 系统启动钩子执行
+2026-03-21 03:04:01,088 - modular_quant.hook_manager - ERROR - 钩子执行失败: system.startup (id=e68d7d93-43f1-494c-b94c-68de7d40add7) - __init__() got an unexpected keyword argument 'event_data'
+2026-03-21 03:04:01,088 - modular_quant.agents - INFO - 消息总线启动: global
+2026-03-21 03:04:01,088 - modular_quant - INFO - 模块化量化平台启动成功，版本: 1.0.0
+2026-03-21 03:04:01,088 - modular_quant - INFO - 系统启动时间: 2026-03-21 03:04:01.087898
+2026-03-21 03:04:01,088 - modular_quant - INFO - 启用模块: 数据源=tdx, Agent=['data_collector', 'strategy_analyzer', 'report_generator']
+2026-03-21 03:04:01,088 - modular_quant - INFO - 停止模块化量化平台...
+2026-03-21 03:04:01,088 - modular_quant - INFO - 系统关闭钩子执行
+2026-03-21 03:04:01,089 - modular_quant.hook_manager - ERROR - 钩子执行失败: system.shutdown (id=6e54601e-3ff7-40f3-bee0-19ec0796fd45) - __init__() got an unexpected keyword argument 'event_data'
+2026-03-21 03:04:01,089 - modular_quant.hook_manager - INFO - 系统关闭 - 钩子管理器: default
+2026-03-21 03:04:01,089 - modular_quant - ERROR - 量化平台停止失败: 'MessageBus' object has no attribute 'stop'
+2026-03-21 03:04:33,280 - modular_quant.config - INFO - 默认配置加载完成
+2026-03-21 03:04:33,281 - modular_quant.config - INFO - 配置管理器初始化完成
+2026-03-21 03:04:33,282 - root - INFO - 设置默认数据源: tdx
+2026-03-21 03:04:33,318 - modular_quant.hook_manager - INFO - 钩子管理器初始化: global
+2026-03-21 03:04:33,342 - modular_quant.agents - INFO - 消息总线初始化: global
+2026-03-21 03:04:33,342 - modular_quant.agents - INFO - Agent管理器初始化完成
+2026-03-21 03:04:33,342 - modular_quant - WARNING - 部分模块导入失败: cannot import name 'DataCollectorAgent' from 'modular_quant.agents' (/Users/huangjing/.openclaw/workspace/modular_quant/src/modular_quant/agents/__init__.py)
+2026-03-21 03:04:33,342 - modular_quant - INFO - 请确保所有依赖已安装: pip install -r requirements.txt
+2026-03-21 03:04:33,343 - DataSource.TDX - ERROR - TDX数据源初始化失败: 通达信路径不存在: /Volumes/[C] Windows 10/new_tdx64
+2026-03-21 03:04:33,343 - root - ERROR - 数据源初始化失败: tdx
+2026-03-21 03:04:33,343 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 03:04:33,343 - modular_quant.agents - INFO - 消息总线初始化: default
+2026-03-21 03:04:33,344 - modular_quant - INFO - 初始化模块化量化平台 v1.0.0
+2026-03-21 03:04:33,348 - modular_quant.config - INFO - 从文件加载配置成功: test_config.yaml
+2026-03-21 03:04:33,348 - modular_quant - INFO - 从配置文件加载配置: ./test_config.yaml
+2026-03-21 03:04:33,348 - modular_quant.hook_manager - INFO - 钩子管理器初始化: default
+2026-03-21 03:04:33,349 - modular_quant - INFO - 模块化量化平台初始化完成
+2026-03-21 03:04:33,349 - modular_quant - INFO - 启动模块化量化平台...
+2026-03-21 03:04:33,349 - modular_quant.hook_manager - INFO - 系统启动 - 钩子管理器: default
+2026-03-21 03:04:33,349 - modular_quant - INFO - 系统启动钩子执行
+2026-03-21 03:04:33,349 - modular_quant.hook_manager - ERROR - 钩子执行失败: system.startup (id=a4f4bab6-0998-4dd1-8a4f-7ffa182b42e9) - __init__() got an unexpected keyword argument 'event_data'
+2026-03-21 03:04:33,349 - modular_quant.agents - INFO - 消息总线启动: global
+2026-03-21 03:04:33,349 - modular_quant - INFO - 模块化量化平台启动成功，版本: 1.0.0
+2026-03-21 03:04:33,349 - modular_quant - INFO - 系统启动时间: 2026-03-21 03:04:33.349063
+2026-03-21 03:04:33,349 - modular_quant - INFO - 启用模块: 数据源=tdx, Agent=['data_collector', 'strategy_analyzer', 'report_generator']
+2026-03-21 03:04:33,350 - modular_quant - INFO - 停止模块化量化平台...
+2026-03-21 03:04:33,350 - modular_quant - INFO - 系统关闭钩子执行
+2026-03-21 03:04:33,350 - modular_quant.hook_manager - ERROR - 钩子执行失败: system.shutdown (id=dd23ee89-c877-4880-bf53-adc546c8dc51) - __init__() got an unexpected keyword argument 'event_data'
+2026-03-21 03:04:33,350 - modular_quant.hook_manager - INFO - 系统关闭 - 钩子管理器: default
+2026-03-21 03:04:33,350 - modular_quant.agents - INFO - 消息总线停止: global
+2026-03-21 03:04:33,350 - modular_quant.agents - INFO - 消息总线已停止: global
+2026-03-21 03:04:33,350 - modular_quant - INFO - 模块化量化平台停止成功

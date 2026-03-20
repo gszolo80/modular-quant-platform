@@ -1,0 +1,236 @@
+# 模块化量化平台配置文件
+# 设计原则：数据是基础，做成模块化，功能只挂接
+
+# 系统配置
+system:
+  name: "Modular Quant Platform"
+  version: "1.0.0"
+  environment: "development"  # development/testing/production
+  debug: true
+  log_level: "INFO"
+  log_file: "logs/modular_quant.log"
+  max_log_size: "10MB"
+  max_log_files: 5
+
+# 数据源配置
+data_sources:
+  default_source: "tdx"  # tdx/eastmoney/akshare
+  tdx_path: "/Volumes/[C] Windows 10/new_tdx64/"
+  eastmoney_api_key: ""
+  akshare_enabled: false
+  cache_enabled: true
+  cache_ttl: 3600  # 缓存存活时间（秒）
+  cache_max_size: "1GB"
+  data_validation: true
+
+# 数据库配置
+database:
+  engine: "duckdb"
+  path: "data/stocks.duckdb"
+  memory_limit: "4GB"
+  threads: 4
+  auto_vacuum: true
+  checkpoint_threshold: "1GB"
+  wal_autocheckpoint: "1GB"
+  
+  # 表配置
+  tables:
+    price_history:
+      create_if_not_exists: true
+      partition_by: "code"
+      indexes:
+        - ["code", "date"]
+    technical_indicators:
+      create_if_not_exists: true
+    trading_signals:
+      create_if_not_exists: true
+
+# 回测配置
+backtest:
+  initial_capital: 100000.0
+  commission_rate: 0.0003
+  slippage: 0.001
+  default_strategies:
+    - "ma_cross"
+    - "macd"
+    - "rsi"
+    - "bollinger"
+  
+  # 策略参数
+  strategy_params:
+    ma_cross:
+      short_period: 5
+      long_period: 20
+    macd:
+      fast_period: 12
+      slow_period: 26
+      signal_period: 9
+    rsi:
+      period: 14
+      overbought: 70
+      oversold: 30
+    bollinger:
+      period: 20
+      std_dev: 2
+
+# Agent配置
+agents:
+  enabled_agents:
+    - "data_collector"
+    - "strategy_analyzer"
+    - "report_generator"
+  
+  heartbeat_interval: 30  # 心跳间隔（秒）
+  message_timeout: 60     # 消息超时时间（秒）
+  max_queue_size: 1000    # 消息队列最大大小
+  retry_attempts: 3       # 重试次数
+  
+  # Agent特定配置
+  data_collector:
+    enabled: true
+    data_sources: ["tdx", "eastmoney"]
+    update_interval: 300  # 数据更新间隔（秒）
+    batch_size: 100
+  
+  strategy_analyzer:
+    enabled: true
+    strategies: ["ma_cross", "macd", "rsi"]
+    analysis_interval: 60  # 分析间隔（秒）
+  
+  report_generator:
+    enabled: true
+    report_formats: ["html", "pdf", "markdown"]
+    output_dir: "reports"
+    template_dir: "templates"
+
+# 钩子配置
+hooks:
+  enabled_hooks:
+    - "SYSTEM_STARTUP"
+    - "SYSTEM_SHUTDOWN"
+    - "DATA_AFTER_FETCH"
+    - "STRATEGY_SIGNAL_GENERATED"
+    - "BACKTEST_COMPLETE"
+    - "REPORT_GENERATED"
+    - "ERROR_OCCURRED"
+  
+  # 钩子执行配置
+  execution:
+    max_concurrent: 10
+    timeout: 30  # 钩子执行超时时间（秒）
+    retry_on_failure: true
+    retry_attempts: 2
+
+# 通知配置
+notifications:
+  enabled: false
+  channels:
+    - "feishu"
+    - "email"
+    - "console"
+  
+  # 飞书配置
+  feishu:
+    webhook_url: ""
+    secret: ""
+    at_all: false
+  
+  # 邮件配置
+  email:
+    smtp_server: ""
+    smtp_port: 587
+    username: ""
+    password: ""
+    sender: ""
+    recipients: []
+
+# 性能配置
+performance:
+  max_workers: 4
+  thread_pool_size: 10
+  cache_enabled: true
+  compression_enabled: true
+  
+  # 内存管理
+  memory_limit: "2GB"
+  gc_threshold: 0.8  # 内存使用率达到80%时触发垃圾回收
+  
+  # 数据库性能
+  db_cache_size: "512MB"
+  db_temp_directory: "temp"
+
+# 安全配置
+security:
+  api_rate_limit: 10  # 每分钟API调用限制
+  data_encryption: false
+  ssl_enabled: false
+  
+  # 访问控制
+  allowed_ips:
+    - "127.0.0.1"
+    - "localhost"
+  
+  # 认证
+  require_auth: false
+  auth_token_ttl: 86400  # 认证令牌有效期（秒）
+
+# 监控配置
+monitoring:
+  enabled: true
+  metrics_port: 9090
+  health_check_interval: 30
+  
+  # 监控指标
+  metrics:
+    - "system.cpu"
+    - "system.memory"
+    - "system.disk"
+    - "platform.agents"
+    - "platform.hooks"
+    - "database.queries"
+  
+  # 告警
+  alerts:
+    cpu_threshold: 80
+    memory_threshold: 85
+    disk_threshold: 90
+
+# 路径配置
+paths:
+  data_dir: "data"
+  logs_dir: "logs"
+  reports_dir: "reports"
+  temp_dir: "temp"
+  config_dir: "config"
+  
+  # 模块路径
+  modules:
+    data_sources: "src/modular_quant/data_sources"
+    core_models: "src/modular_quant/core_models"
+    hook_manager: "src/modular_quant/hook_manager"
+    agents: "src/modular_quant/agents"
+    config: "src/modular_quant/config"
+
+# 开发配置（仅development环境生效）
+development:
+  hot_reload: true
+  debug_toolbar: true
+  sql_logging: false
+  profiling_enabled: false
+  profiling_output: "profiles"
+
+# 测试配置（仅testing环境生效）
+testing:
+  use_mock_data: true
+  mock_data_path: "tests/mock_data"
+  test_database: ":memory:"
+  fast_mode: true
+
+# 生产配置（仅production环境生效）
+production:
+  log_level: "WARNING"
+  debug: false
+  use_ssl: true
+  enable_backup: true
+  backup_interval: 86400  # 每天备份一次
+  max_backup_files: 30

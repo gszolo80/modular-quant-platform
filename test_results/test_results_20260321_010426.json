@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-03-21T01:04:26.722841",
+  "total_tests": 9,
+  "passed_tests": 4,
+  "failed_tests": 5,
+  "pass_rate": 44.44444444444444,
+  "duration": 0.06579208374023438,
+  "details": [
+    {
+      "test": "模块导入",
+      "status": "ERROR",
+      "error": "name 'StockData' is not defined",
+      "timestamp": "2026-03-21T01:04:26.697538"
+    },
+    {
+      "test": "配置管理器",
+      "status": "PASS",
+      "timestamp": "2026-03-21T01:04:26.697715"
+    },
+    {
+      "test": "数据源模块",
+      "status": "PASS",
+      "timestamp": "2026-03-21T01:04:26.697759"
+    },
+    {
+      "test": "核心模型",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:04:26.697867"
+    },
+    {
+      "test": "钩子管理器",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:04:26.698700"
+    },
+    {
+      "test": "Agent框架",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:04:26.699496"
+    },
+    {
+      "test": "平台集成",
+      "status": "FAIL",
+      "timestamp": "2026-03-21T01:04:26.700274"
+    },
+    {
+      "test": "配置文件",
+      "status": "PASS",
+      "timestamp": "2026-03-21T01:04:26.722241"
+    },
+    {
+      "test": "项目结构",
+      "status": "PASS",
+      "timestamp": "2026-03-21T01:04:26.722639"
+    }
+  ]
+}
